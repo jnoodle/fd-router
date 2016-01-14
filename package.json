@@ -1,0 +1,36 @@
+{
+  "name": "fd-router",
+  "version": "1.0.0",
+  "description": "a simple javascript router for spa",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnoodle/fd-router.git"
+  },
+  "keywords": [
+    "router",
+    "webapp",
+    "spa",
+    "javascript"
+  ],
+  "author": "jnoodle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnoodle/fd-router/issues"
+  },
+  "homepage": "https://github.com/jnoodle/fd-router#readme"
+}

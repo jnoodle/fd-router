@@ -1,0 +1,24 @@
+{
+    "name": "fd-router",
+    "homepage": "https://github.com/jnoodle/fd-router",
+    "authors": [
+        "jnoodle <dotnet@163.com>"
+    ],
+    "description": "A simple javascript router for spa.",
+    "main": "dist/fd-router.js",
+    "moduleType": [],
+    "keywords": [
+        "router",
+        "webapp",
+        "spa",
+        "javascript"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
