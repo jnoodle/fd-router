@@ -1,12 +1,12 @@
 var gulp = require('gulp');
-var clean = require('gulp-clean');
+var rimraf = require('gulp-rimraf');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 
 gulp.task('clean', function () {
-    gulp.src('dist/*', {read: false})
-        .pipe(clean())
+    return gulp.src('./dist/*.js', {read: false}) // much faster
+        .pipe(rimraf());
 });
 
 gulp.task('default', ['clean'], function () {
